@@ -6,5 +6,5 @@ Take care.
 Just like a forest we have our own creatures, let's meet 'em.
 All creatures consume less food (energy) when not much food required.
 #### Sprouty (Smart Bulb)
-Meet a sprouty, a curious creature who is always full of ideas and lights up asap it senses you.
+Meet sprouty, a curious creature who is always full of ideas and lights up asap it senses you.
 He loves to replicate the sun's warms and moon's soothing lighting conditions and always helps you.
