@@ -16,23 +16,24 @@ p {
     line-height:1.6; 
     letter-spacing: 0.5px;
     margin: 0;
-    padding: 1px 20px
+    padding: 1px 40px
 }
 .dashboard-grid {
     display: grid;
-    /* Create 3 columns that share space equally */
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; /* Space between tiles */
+    gap: 20px;
     padding: 40px;
 }
 
 .device-tile {
-    /* Using your Minty Green for the background */
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
     background-color: hsl(140, 90%, 90%); 
     color: hsl(180, 80%, 20%);
     
     padding: 10px;
-    border-radius: 25px; /* Rounded corners for that premium feel */
+    border-radius: 25px;
     text-align: center;
     
     /* A subtle border using your dark teal */
@@ -42,7 +43,11 @@ p {
 
 /* The 'Highlight' state you mentioned earlier */
 .device-tile:hover {
-    transform: translateY(5px); /* Lift up slightly when hovered */
+    transform: translateY(-5px); /* Lift up slightly when hovered */
     background-color: hsl(180, 80%, 30%);
-    color: white;
+    color: hsl(0, 0%, 95%);
+}
+
+.device-tile:active {
+    transform: translateY(0);
 }
